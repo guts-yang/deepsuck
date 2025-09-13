@@ -223,7 +223,7 @@ deepsuck/
 │   └── ui.py              # 图形用户界面模块
 ├── config/             # 配置文件目录
 │   ├── config.py          # 主配置文件
-│   └── cookies/           # cookies存储目录
+│   └── cookies/           # cookies存储目录请用户自行配置并加入对应cookies.txt文件
 ├── data/               # 数据存储目录
 │   ├── videos/            # 视频文件存储（默认下载路径）
 │   └── audios/            # 音频文件存储
