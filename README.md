@@ -199,6 +199,18 @@ YOUTUBE_API_KEY=your_youtube_api_key
 SPOTIFY_API_KEY=your_spotify_api_key
 ```
 
+### Cookies配置
+
+对于某些需要登录才能访问的网站内容，您可以手动配置cookies以避免重复登录。配置步骤如下：
+
+1. 打开浏览器（推荐Chrome），访问需要登录的网站并完成登录
+2. 打开开发者工具（按F12），切换到"Application"（应用程序）选项卡
+3. 在左侧导航中选择"Cookies"，然后选择当前网站的域名
+4. 右键点击cookie列表，选择"Export cookies"或类似选项，将cookies导出为文本格式
+5. 将导出的cookies保存到项目的`config/cookies/`目录下，并以网站域名命名（例如`bilibili.txt`）
+
+通过命令行登录时，系统也会自动保存cookies到该目录下，供后续使用。
+
 ## 项目结构
 
 ```
